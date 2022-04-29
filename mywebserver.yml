@@ -1,7 +1,6 @@
 --- 
 - hosts: all 
   become: yes
-  gather-facts: yes
   tasks:
   - name: i want to install apache2
     apt:
